@@ -1,0 +1,8 @@
+Reco Kit is multi-licensed by artifact type. See docs/licensing.md.
+
+- Hardware design (hardware/): CERN-OHL-W-2.0    -> LICENSE.hardware
+- Kernel driver (driver/):     GPL-2.0-only       -> driver/LICENSE
+- Software (provisioning/, calibration/tools/, community/): Apache-2.0 -> LICENSE.software
+- Documentation (docs/, READMEs): CC-BY-SA-4.0    -> LICENSE.docs
+
+Note: calibration/camera_overrides_imx477.isp is output from NVIDIA's camera-tuning tool (see its header) with tuning values by Reco. It is included for interoperability and is not covered by the licenses above; NVIDIA's terms govern the file itself.

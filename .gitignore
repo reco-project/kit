@@ -1,0 +1,24 @@
+# Build / vendor output
+node_modules/
+dist/
+target/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Local capture / calibration output (never commit customer footage or frames)
+*.mp4
+*.mkv
+*.h264
+frames/
+lens_calib_*/
+*_debug/
+
+# Editor
+.vscode/
+.idea/
+*.swp
