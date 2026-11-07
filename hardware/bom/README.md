@@ -18,8 +18,8 @@ Roughly **$450 to $600** in parts. A working reference, not a locked sourcing li
 
 Two IMX477 modules are in use:
 
-- **Arducam IMX477** - CSI module, runs on the Jetson directly.
-- **Raspberry Pi HQ Camera (IMX477)** - needs the **R8 mod** to run on the Jetson ([how-to video](https://www.youtube.com/watch?v=keZFSgiU-Hk)).
+- ([**Arducam IMX477**](https://www.arducam.com/arducam-12-3mp-imx477-camera-module-w-c-cs-lens-mount-and-tripod-adapter-for-raspberry-pi.html)) - CSI module, runs on the Jetson directly. SKU: B0240E
+- ([**Raspberry Pi HQ Camera (IMX477)**](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) - needs the **R8 mod** to run on the Jetson ([how-to video](https://www.youtube.com/watch?v=keZFSgiU-Hk)). SKU: CE06935
 
 Use the **same module and lens on both sides** so the stereo pair matches. IMX477 is what the [driver](../../driver/) and calibration are tested against; the calibration path itself is sensor-agnostic. For tighter frame alignment, IMX477 sensors can be hardware-synced through their XVS test points.
 
